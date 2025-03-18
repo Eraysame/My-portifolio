@@ -247,6 +247,142 @@ header{
     color: #555;
 }
 
+/* Resume Section */
+#resume {
+    padding: 80px 10%;
+    background-color: #f8f9fa;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.resume-section {
+    margin-bottom: 40px;
+}
+
+.resume-section h3 {
+    font-size: 1.8rem;
+    color: #444;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.resume-item h4 {
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.resume-item .date {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+}
+
+.resume-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Service Section */
+#services {
+    padding: 80px 10%;
+    background-color: #fff;
+}
+
+.services-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card i {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skills-list {
+        flex-direction: column;
+    }
+
+    .skills-list li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 
 
 @keyframes ShowRight{
