@@ -14,7 +14,7 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    
+    background-color: #081b29;
     display: flex;
  justify-content: space-between; 
     align-items: center; 
@@ -206,6 +206,48 @@ header{
     background: #081b29;
     opacity: 50%;
 }
+
+/* About section */
+#about {
+    padding: 100px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    gap: 50px; /* Adds space between image and text */
+}
+
+.about-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-description {
+    max-width: 600px;
+    color: #333;
+    width: 100%; /* Ensures full width */
+}
+
+.about-description h2 {
+    display: block; /* Takes full width */
+    width: 100%; /* Ensures it stretches */
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: hsl(0, 97%, 51%);
+    text-align: center; /* Centers the text */
+    background-color: #ddd; /* Optional: Background to highlight */
+    padding: 10px; /* Adds some spacing */
+}
+
+.about-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+
 
 @keyframes ShowRight{
     100% {
